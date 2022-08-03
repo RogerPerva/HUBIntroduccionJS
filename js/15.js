@@ -26,7 +26,7 @@ let resultado = meses.includes('Marzo');
 // console.log(resultado); //si 'Marzo' existe en meses, nos deberá devolver true.
 
 
-// Some ideal para arreglo de objetos
+// Some es ideal para arreglo de objetos
 
 resultado = carrito.some(function(producto){
     return producto.nombre === 'Celular'
@@ -35,7 +35,6 @@ resultado = carrito.some(function(producto){
 resultado = carrito.reduce(function(total, producto){
     return total + producto.precio
 }, 0);
-
 //Filter
 resultado = carrito.filter(function(producto){
     return producto.precio > 400
